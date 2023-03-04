@@ -8,8 +8,8 @@ on:
 
 jobs:
   # Lint the Bicep file.
-  #lint:
-  #  uses: ./.github/workflows/lint.yml
+  lint:
+    uses: ./.github/workflows/lint.yml
 
   build-and-deploy:
     runs-on: ubuntu-latest
